@@ -1,0 +1,95 @@
+.container{
+    height: 300vh;
+    position: relative;
+    font-family: "Italiana", sans-serif;
+    font-weight:400;
+  
+     
+    h1{
+        width: 100%;
+        font-size: 8em;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: bold;
+        text-align: start;
+        padding: 2rem;
+        
+        /* Text styles with background image */
+        background-image: url('https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2024/03/71.jpg&nocache=1'); /* Replace with your image path */
+        background-size: cover; /* Adjust as necessary */
+        background-position: center; /* Adjust as necessary */
+        -webkit-background-clip: text; /* For text masking with background */
+        background-clip: text; /* For text masking with background */
+        color: transparent; /* Make the text itself transparent */
+    }
+    .sticky{
+        position: sticky;
+        overflow: hidden;
+        top: 0;
+        height: 100vh;
+
+        .el{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imageContainer{
+                position: relative;
+                width: 25vw;
+                height: 25vh;
+                img{
+                    object-fit: cover;
+                }
+            }
+            &:nth-of-type(2){
+                .imageContainer{
+                    top: -30vh;
+                    left: 5vw;
+                    width: 35vw;
+                    height: 30vh;
+                }
+            }
+            &:nth-of-type(3){
+                .imageContainer{
+                    top: -10vh;
+                    left: -25vw;
+                    width: 20vw;
+                    height: 45vh;
+                }
+            }
+            &:nth-of-type(4){
+                .imageContainer{
+                    left: 27.5vw;
+                    width: 25vw;
+                    height: 25vh;
+                }
+            }
+            &:nth-of-type(5){
+                .imageContainer{
+                    top: 27.5vh;
+                    left: 5vw;
+                    width: 20vw;
+                    height: 25vh;
+                }
+            }
+            &:nth-of-type(6){
+                .imageContainer{
+                    top: 27.5vh;
+                    left: -22.5vw;
+                    width: 30vw;
+                    height: 25vh;
+                }
+            }
+            &:nth-of-type(7){
+                .imageContainer{
+                    top: 22.5vh;
+                    left: 25vw;
+                    width: 15vw;
+                    height: 15vh;
+                }
+            }
+        }
+    }
+}

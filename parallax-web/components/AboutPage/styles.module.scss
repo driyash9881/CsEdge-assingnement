@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(15, 15, 15);
+  cursor: none;
+  .head {
+    max-width: 60%;
+    font-size: 8em;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 4em;
+    opacity: 0;
+    /* Text styles with background image */
+    background-image: url('https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2024/03/71.jpg&nocache=1'); /* Replace with your image path */
+    background-size: cover; /* Adjust as necessary */
+    background-position: center; /* Adjust as necessary */
+    -webkit-background-clip: text; /* For text masking with background */
+    background-clip: text; /* For text masking with background */
+    color: transparent; /* Make the text itself transparent */
+  }
+  
+  .paragraph{
+    max-width: 1000px;
+    padding: 40px;
+    color: rgb(209, 212, 212);
+    font-size: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+   
+    
+    .word{
+      margin-right: 12px;
+      margin-top: 12px;
+      position: relative ;
+    }
+    .shadow{
+      position:absolute;
+      opacity:0.3 ;
+    }
+  
+   
+  }
+
+  .image{
+    scroll-behavior: smooth;
+    height: 25vh;
+    margin-left: 78rem;
+    // margin-top: -30rem;
+    padding-bottom: 5rem;
+     }
+
+    img{
+      border-top-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+    }
+}
+
+
+
+
