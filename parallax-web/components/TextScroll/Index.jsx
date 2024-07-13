@@ -43,7 +43,7 @@
     }
 
     return (
-      <main className={styles.main}>
+      <main className={styles.main} id='home'>
 
         <Image 
           src={image}

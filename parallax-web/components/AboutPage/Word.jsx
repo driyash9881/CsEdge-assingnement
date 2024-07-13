@@ -5,6 +5,7 @@ import styles from './styles.module.scss'
 import image from '../../public/assets/model1.jpeg'
 import Image from 'next/image'
 
+
 export default function Paragraph({ value }) {
   const elements = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -24,7 +25,7 @@ export default function Paragraph({ value }) {
 
   const words = value.split(' ');
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='about-us'>
       
       <motion.h1   
       style={{ x, opacity }}
@@ -46,6 +47,7 @@ export default function Paragraph({ value }) {
       <motion.div style={{y}} className={styles.image}>
         <Image  src={image} alt="model" />
       </motion.div>
+  
     </div>
   );
 }

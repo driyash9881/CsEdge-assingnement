@@ -58,7 +58,7 @@ export default function Index() {
   ]
 
   return (
-      <div ref={container} className={styles.container}>
+      <div ref={container} className={styles.container} id='image-gallery'>
         <h1 className='styles.head'>Image Gallery</h1>
           <div className={styles.sticky}>
               {

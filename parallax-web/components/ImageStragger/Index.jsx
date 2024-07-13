@@ -173,7 +173,7 @@ export default function Index() {
   }, []);
 
   return (
-    <div className={styles.body}>
+    <div className={styles.body} id='our-work'>
       <motion.h1 className={styles.head}>Check our latest Work!</motion.h1>
       <canvas ref={canvasRef} style={{ marginTop: '-32rem' }}></canvas>
     </div>

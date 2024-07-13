@@ -25,12 +25,18 @@ export default function Home() {
   }, [])
   return (
   <main className={styles.main}>
-    
-    <TextScroll/>
+     {/* HomeScreen */}
+    <TextScroll/> 
+
+    {/* Image Gallery     */}
     <ZoomParallax/>
+
+    {/* About US */}
     <div style={{height:'10vh'}}></div>
     <Word value={paragraph} />
     <div style={{height:'20vh'}}></div>
+
+    {/* What we do */}
     <ImageStragger/>
     <Footer/>
   </main>
