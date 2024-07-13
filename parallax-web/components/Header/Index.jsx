@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Button from '../Button'
+import Button from '../Button/Index'
 import styles from './styles.module.scss'
 import { AnimatePresence, motion } from 'framer-motion';
-import Nav from '../Nav'
+import Nav from '../Nav/Index'
 
 const menu = {
 
